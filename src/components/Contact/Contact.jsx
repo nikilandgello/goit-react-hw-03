@@ -6,13 +6,13 @@ const Contact = ({ data: { name, number, id }, onDelete }) => {
       <div className={css.contactGroup}>
         <div className={css.contactItem}>
           <svg className={css.icon} width={20} height={20}>
-            <use href="../../../public/sprite.svg#icon-user"></use>
+            <use href="/sprite.svg#icon-user"></use>
           </svg>
           <p className={css.contactDescription}>{name}</p>
         </div>
         <div className={css.contactItem}>
           <svg className={css.icon} width={20} height={20}>
-            <use href="../../../public/sprite.svg#icon-phone"></use>
+            <use href="/sprite.svg#icon-phone"></use>
           </svg>
           <p className={css.contactDescription}>{number}</p>
         </div>
