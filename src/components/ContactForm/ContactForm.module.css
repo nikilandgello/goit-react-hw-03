@@ -1,0 +1,60 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  padding: 10px;
+  gap: 20px;
+
+  border: 1px solid #222;
+  border-radius: 5px;
+
+  margin-top: 30px;
+}
+
+.groupForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.labelForm {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.inputForm {
+  min-height: 35px;
+
+  font-weight: 500;
+  font-size: 15px;
+  padding: 5px;
+
+  outline: none;
+
+  transition: border 350ms ease-in-out;
+}
+
+.errorMessage {
+  color: rgb(248, 78, 78);
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.buttonForm {
+  width: auto;
+  height: auto;
+
+  padding: 5px;
+  align-self: center;
+
+  font-weight: 500;
+  font-size: 20px;
+
+  border: 1px solid #222;
+  border-radius: 5px;
+
+  transition: background-color 350ms ease-in-out;
+}
+
+.buttonForm:hover {
+  background-color: #cecece;
+}

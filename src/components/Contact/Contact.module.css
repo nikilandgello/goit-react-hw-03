@@ -1,0 +1,46 @@
+.contactGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contactItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.contactDescription {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.icon {
+  display: inline-block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+.deleteButton {
+  width: auto;
+  height: auto;
+
+  padding: 5px;
+  align-self: center;
+
+  font-weight: 500;
+  font-size: 20px;
+
+  border: 1px solid #222;
+  border-radius: 5px;
+
+  transition: background-color 350ms ease-in-out;
+}
+
+.deleteButton:hover {
+  background-color: #cecece;
+}
